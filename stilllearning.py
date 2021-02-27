@@ -352,4 +352,65 @@ True
 6
 >>> (2 + 2) * 2
 8
+>>> # Comparison operators
+>>> 100 > 10
+True
+>>> 100 < 10
+False
+>>> 2 <= 2
+True
+>>> 2 >= 3
+False
+>>> 2 == 2
+True
+>>> 2 == 3
+False
+>>> 1 != 2
+True
+>>> 1 != 1
+False
+>>> # logical operators
+>>> 1 == 1 and 2 == 2
+True
+>>> 1 == 2 and 2 == 2
+False
+>>> 1 ==1 and 10 != 5 and 2 < 10
+True
+>>> 1 == 1 or 1 == 2
+True
+>>> 1 == 2 or 2 ==3
+False
+>>> 1 == 2 or 2 == 2 or 3 == 6
+True
+>>> not 1 == 1
+False
+>>> not 1 == 2
+True
+>>> 
+home = "America"
+if home == "America":
+    print("Howdy!")
+else:
+    print("Hello!")
+
+
+nexthome = "Canada"
+if nexthome == "America":
+    print("Howdy!")
+else:
+    print("Hello!")
+
+
+x = 2
+if x == 2:
+    print("The number is 2.")
+if x % 2 == 0:
+    print("The number is even.")
+if x % 2 != 0:
+    print("The number is odd.")
+============= RESTART: /Users/newuser/Documents/ifthenstatements.py ============
+Howdy!
+Hello!
+The number is 2.
+The number is even.
 >>> 
