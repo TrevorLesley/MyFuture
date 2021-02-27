@@ -330,3 +330,16 @@ print(we_boolin)
 10.8
 True
 >>> 
+
+============== RESTART: /Users/newuser/Documents/moduloreturns.py ==============
+>>> 12 % 2
+0
+>>> 11 % 2
+1
+>>> 
+============= RESTART: /Users/newuser/Documents/divisionreturns.py =============
+>>> 14 // 3
+4
+>>> 14 / 3
+4.666666666666667
+>>> 
