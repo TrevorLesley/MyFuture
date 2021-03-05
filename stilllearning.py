@@ -438,3 +438,25 @@ else:
 =============== RESTART: /Users/newuser/Documents/noodlebrain.py ===============
 Hello, Thailand!
 >>> 
+x = 100
+if x == 10:
+    print("10")
+elif x == 20:
+    print("20")
+else:
+    print("I don't know.")
+
+
+if x == 100:
+    print("X is 100.")
+
+
+if x % 2 == 0:
+    print("X is even.")
+else:
+    print("X is odd.")
+=========== RESTART: /Users/newuser/Documents/waititmakessensenow.py ===========
+I don't know.
+X is 100.
+X is even.
+>>> 
