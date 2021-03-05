@@ -414,3 +414,27 @@ Hello!
 The number is 2.
 The number is even.
 >>> 
+x = 10
+y = 11
+
+
+if x == 10:
+    if y == 11:
+        print(x + y)
+================= RESTART: /Users/newuser/Documents/nesting.py =================
+21
+>>> 
+home = "Thailand"
+if home == "Japan":
+    print("Hello, Japan!")
+elif home == "Thailand":
+    print("Hello, Thailand!")
+elif home == "India":
+    print("Hello, India!")
+elif home == "China":
+    print("Hello, China!")
+else:
+    print("Hello, World.")
+=============== RESTART: /Users/newuser/Documents/noodlebrain.py ===============
+Hello, Thailand!
+>>> 
