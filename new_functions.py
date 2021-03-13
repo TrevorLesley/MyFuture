@@ -44,7 +44,7 @@ print(result, " result problem 3")
 age = input("Enter your age:")
 int_age = int(age)
 if int_age < 21:
-    print("Yougin")
+    print("Youngin")
 else:
     print("Ancient")
-    
+ 
