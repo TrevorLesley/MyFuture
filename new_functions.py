@@ -20,13 +20,13 @@ def g(x, y, z):
 
 
 ##########################
-
-# age = input("Enter your age:")
-# int_age = int(age)
-# if int_age < 21:
-#     print("Youngin")
-# else:
-#     print("Ancient")
+def age():
+    age = input("Enter your age:")
+    int_age = int(age)
+    if int_age < 21:
+        print("Youngin")
+    else:
+        print("Ancient")
  
 ################
 
@@ -37,10 +37,39 @@ def f(x=2):
 
 ###############
 # division 
-a = input("Type a number:")
-b = input("Type another:")
-a = int(a)
-b = int(b)
+def division():
+    a = input("Type a number:")
+    b = input("Type another:")
+    a = int(a)
+    b = int(b)
+    return (a/b)
+
+###############
+
+# Exception Handling
+def exception():
+    a = input("Type a number:")
+    b = input("Type another:")
+    a = int(a)
+    b = int(b)
+    # print(a," A")
+    # print(b, "B")
+    # print (a/b, " A/B")
+    try:
+        print(a / b)
+    except ZeroDivisionError:
+        print("b cannot be zero.")
+
+# More Exception Handling
+def exception2():
+    try:
+        a = input("Type a number:")
+        b = input("Type another:")
+        a = int(a)
+        b = int(b)
+        print((a/b))
+    except (ZeroDivisionError, ValueError):
+        print("Invalid input.")
 
 
 """ Function Calls """
@@ -63,9 +92,13 @@ b = int(b)
 # else:
 #     print("y is not 5 result problem 2")
 
+# age()
 
 #print(f())
 #print(f(4))
 
 #division
-print(a / b)
+# division()
+
+#exception()
+exception2()
