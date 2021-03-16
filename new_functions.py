@@ -68,9 +68,26 @@ def exception2():
         a = int(a)
         b = int(b)
         print((a/b))
-    except (ZeroDivisionError, ValueError):
+    except (ZeroDivisionError, ValueError, NameError):
         print("Invalid input.")
 
+#########################
+
+""" Freestyle Programs """
+
+def energy():
+    energy = input("On a scale of 1-100, how are you feeling?")
+    int_energy = int(energy)
+    if int_energy < 10:
+        print("Not so good, huh?")
+    else:
+        print("You're chilling.")
+
+
+def batterylife():
+    batterylife = input("What's your charge?")
+    int_batterylife = int(batterylife)
+    if int_batterylife <=
 
 """ Function Calls """
 # result = a(2)
@@ -101,4 +118,6 @@ def exception2():
 # division()
 
 #exception()
-exception2()
+#exception2()
+
+#energy()
