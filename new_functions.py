@@ -89,10 +89,13 @@ def batterylife():
     int_batterylife = int(batterylife)
     if (int_batterylife<=10):
         print("Please plug your device in.")
-    if  (int_batterylife>=11) and (int_batterylife<=50):
+    elif (int_batterylife>=11) and (int_batterylife<=50):
         print("Needs charging soon.")
-    if (int_batterylife>89):
+    elif (int_batterylife>89):
         print("Battery charged.")
+    else:
+        print("Healthy charge.")
+    
 
 """ Function Calls """
 # result = a(2)
@@ -120,7 +123,7 @@ def batterylife():
 #print(f(4))
 
 #division
-# division()
+#division()
 
 #exception()
 #exception2()
